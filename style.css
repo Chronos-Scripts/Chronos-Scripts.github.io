@@ -10,7 +10,7 @@ body {
 
 header {
   background-image: url("background.jpg");
-  padding: 9px 20px; /* Reduce padding for smaller size */
+  padding: 100% 10%; /* Reduce padding for smaller size */
   display: flex;
   justify-content: space-between;
   align-items: center;
