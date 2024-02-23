@@ -9,18 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  background: rgb(2,0,36);
-  background: -moz-linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(7,59,154,1) 0%, rgba(0,28,255,0.6152660893458946) 1%, rgba(0,212,255,1) 100%);
-  background: -webkit-linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(7,59,154,1) 0%, rgba(0,28,255,0.6152660893458946) 1%, rgba(0,212,255,1) 100%);
-  background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(7,59,154,1) 0%, rgba(0,28,255,0.6152660893458946) 1%, rgba(0,212,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
-  padding: 0.001% 1%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .title {
   position: relative;
   top: -10px; /* Adjust as needed */;
@@ -29,11 +17,6 @@ header {
 h1 {
   font-size: 1.8em; /* Adjust font size slightly smaller */
   margin-bottom: 0; /* Reduce margin for better spacing */
-}
-
-p {
-  line-height: 1.5;
-
 }
 
 nav {
@@ -58,25 +41,29 @@ nav button:focus {
   border-bottom: 2px solid #333; /* Change underline color on hover/focus */
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 700px;
-  margin: 0 auto;
-  padding-top: 20px; /* Add padding to start content below topbar */
+section {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 
 h2 {
-  margin-top: 0;
+  color: #333;
 }
 
-#about-me, #work, #contact {
-  /* Initially hide all content sections */
-  display: none;
+p {
+  color: #666;
 }
 
 footer {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  margin-top: 20px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
