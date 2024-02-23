@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-image: url("background.jpg");
   background-size: cover;
-  background-position: center 50%; /* Position at center of y-axis */
+  background-position: 80%; /* Position at center of y-axis */
 }
 
 header {
