@@ -9,11 +9,17 @@ body {
 }
 
 header {
-  background-image: url("background.jpg");
-  padding: 2px,18px; /* Reduce padding for smaller size */
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(7,59,154,1) 0%, rgba(0,28,255,0.6152660893458946) 1%, rgba(0,212,255,1) 100%);
+  background: -webkit-linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(7,59,154,1) 0%, rgba(0,28,255,0.6152660893458946) 1%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(7,59,154,1) 0%, rgba(0,28,255,0.6152660893458946) 1%, rgba(0,212,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+  padding: 10px 20px; /* Adjust padding as needed */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box; /* Ensure padding is included in width */
+  overflow: hidden; /* Prevent horizontal scrollbar (optional) */
 }
 
 h1 {
@@ -37,7 +43,7 @@ nav button {
   background-color: transparent; /* Remove button background */
   color: #333; /* Adjust button text color */
   font-weight: bold;
-  cursor: pointer;
+  cursor: default;
   border-bottom: 2px solid transparent; /* Initially transparent underline */
   transition: border-bottom 0.3s ease-in-out; /* Add transition for hover effect */
 }
