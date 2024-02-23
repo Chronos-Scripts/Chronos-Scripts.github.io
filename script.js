@@ -3,8 +3,11 @@ const workBtn = document.getElementById('work-btn');
 const contactBtn = document.getElementById('contact-btn');
 const mainContent = document.getElementById('main-content');
 
+// Initially show "About Me" section
+document.getElementById('about-me').style.display = 'block';
+
 aboutMeBtn.addEventListener('click', () => {
-  showSection('about-me');
+  // No need to change anything here, "About Me" is already visible
 });
 
 workBtn.addEventListener('click', () => {
