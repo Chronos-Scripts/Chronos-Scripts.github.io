@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(background.jpg);
   background-size: cover;
-  background-position: bottom; /* Position at center of y-axis */
+  background-position: center; /* Position at center of y-axis */
   background-repeat: no-repeat
 }
 
