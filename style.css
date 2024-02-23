@@ -2,6 +2,9 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 20px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
 
 nav {
@@ -43,6 +46,8 @@ main {
   gap: 20px;
   max-width: 700px;
   margin: 0 auto;
+  /* Set a minimum height to ensure content stretches and pushes background */
+  min-height: 100vh;
 }
 
 h2 {
