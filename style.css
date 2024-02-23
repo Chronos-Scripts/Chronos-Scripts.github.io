@@ -9,13 +9,15 @@ body {
   overflow-x: hidden;
 }
 
+
 .title {
   position: relative;
   top: -10px; /* Adjust as needed */;
+  color:#333;
 }
 
 h1 {
-  font-size: 1.8em; /* Adjust font size slightly smaller */
+  font-size: 2em; /* Adjust font size slightly smaller */
   margin-bottom: 0; /* Reduce margin for better spacing */
 }
 
