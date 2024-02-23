@@ -2,9 +2,6 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 20px;
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 nav {
@@ -14,18 +11,19 @@ nav {
 }
 
 nav button {
-  /* Increase padding or font size for better visibility */
-  padding: 15px 30px;
-  font-size: 18px;
-  /* Consider adding a hover effect or background color change */
-  border: 1px solid #ddd;
-  background-color: #fff; /* Change background color for better contrast */
-  color: #333; /* Adjust text color for readability */
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent; /* Remove button background */
+  color: #333; /* Adjust button text color */
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid transparent; /* Initially transparent underline */
+  transition: border-bottom 0.3s ease-in-out; /* Add transition for hover effect */
 }
 
-
-nav button:hover {
-  background-color: #ccc; /* Adjust button hover color */
+nav button:hover,
+nav button:focus {
+  border-bottom: 2px solid #333; /* Change underline color on hover/focus */
 }
 
 header {
@@ -47,8 +45,6 @@ main {
   gap: 20px;
   max-width: 700px;
   margin: 0 auto;
-  /* Set a minimum height to ensure content stretches and pushes background */
-  min-height: 100vh;
 }
 
 h2 {
