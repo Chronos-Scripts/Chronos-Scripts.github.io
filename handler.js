@@ -7,7 +7,7 @@ const mainContent = document.getElementById('main-content');
 document.getElementById('about-me').style.display = 'block';
 
 aboutMeBtn.addEventListener('click', () => {
-  // No need to change anything here, "About Me" is already visible
+  showSection("about-me")
 });
 
 workBtn.addEventListener('click', () => {
