@@ -2,10 +2,13 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 header {
-  background-color: #f0f0f0; /* Set topbar color */
+  background-color: #3511d6; /* Set topbar color */
   padding: 20px;
   display: flex;
   justify-content: space-between;
