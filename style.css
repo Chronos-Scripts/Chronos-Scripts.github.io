@@ -1,10 +1,10 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 100px 200px;
   background-image: url("background.jpg");
   background-size: cover;
-  background-position: 80%; /* Position at center of y-axis */
+  background-position: bottom; /* Position at center of y-axis */
 }
 
 header {
