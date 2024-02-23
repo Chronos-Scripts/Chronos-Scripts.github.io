@@ -9,7 +9,7 @@ body {
 
 header {
   background-color: #f0f0f0; /* Set topbar color */
-  padding: 10px 20px; /* Reduce padding for smaller size */
+  padding: 20px, 10px; /* Reduce padding for smaller size */
   display: flex;
   justify-content: space-between;
   align-items: center;
