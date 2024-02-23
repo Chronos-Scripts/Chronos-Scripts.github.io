@@ -1,36 +1,15 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  padding: 40px;
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-nav button {
-  padding: 10px 20px;
-  border: none;
-  background-color: transparent; /* Remove button background */
-  color: #333; /* Adjust button text color */
-  font-weight: bold;
-  cursor: default;
-  border-bottom: 2px solid transparent; /* Initially transparent underline */
-  transition: border-bottom 0.3s ease-in-out; /* Add transition for hover effect */
-}
-
-nav button:hover,
-nav button:focus {
-  border-bottom: 2px solid #333; /* Change underline color on hover/focus */
+  padding: 0;
 }
 
 header {
-  text-align: center;
+  background-color: #f0f0f0; /* Set topbar color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
@@ -40,6 +19,28 @@ h1 {
 
 p {
   line-height: 1.5;
+  margin-bottom: 0; /* Remove margin for better alignment */
+}
+
+nav {
+  display: flex;
+  gap: 20px; /* Adjust gap between buttons */
+}
+
+nav button {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent; /* Remove button background */
+  color: #333; /* Adjust button text color */
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid transparent; /* Initially transparent underline */
+  transition: border-bottom 0.3s ease-in-out; /* Add transition for hover effect */
+}
+
+nav button:hover,
+nav button:focus {
+  border-bottom: 2px solid #333; /* Change underline color on hover/focus */
 }
 
 main {
@@ -48,6 +49,7 @@ main {
   gap: 20px;
   max-width: 700px;
   margin: 0 auto;
+  padding-top: 20px; /* Add padding to start content below topbar */
 }
 
 h2 {
