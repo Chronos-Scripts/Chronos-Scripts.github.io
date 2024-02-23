@@ -78,7 +78,6 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
-    z-index: -1;
 }
 
 .home-content {
@@ -280,7 +279,7 @@ body {
     right: 30px;
     width: 500px;
     height: 100%;
-    background: transparent;
+    background: red;
     transition: 3s;
     animation: ManipActiveHover .1 forwards;
     animation-delay: 4s;
@@ -289,7 +288,6 @@ body {
 
 .home-ImgHover:hover {
     background: #081b29;
-    opacity: .8;
 }
 
 .home-ImgHover::after {
