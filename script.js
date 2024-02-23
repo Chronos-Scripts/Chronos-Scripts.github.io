@@ -20,5 +20,3 @@ function showSection(sectionId) {
   sections.forEach(section => section.style.display = 'none');
   document.getElementById(sectionId).style.display = 'block';
 }
-
-showSection('about-me')
