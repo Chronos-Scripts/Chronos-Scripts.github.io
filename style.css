@@ -19,7 +19,7 @@ nav button {
   background-color: transparent; /* Remove button background */
   color: #333; /* Adjust button text color */
   font-weight: bold;
-  cursor: pointer;
+  cursor: default;
   border-bottom: 2px solid transparent; /* Initially transparent underline */
   transition: border-bottom 0.3s ease-in-out; /* Add transition for hover effect */
 }
