@@ -279,18 +279,14 @@ body {
     right: 30px;
     width: 500px;
     height: 100%;
-    background: red;
+    background: transparent;
     transition: 3s;
     animation: ManipActiveHover .1 forwards;
     animation-delay: 4s;
     pointer-events: none;
 }
 
-.home-ImgHover:hover {
-    background: #081b29;
-}
-
-.home-ImgHover::after {
+.home-ImgHover::before {
     content: '';
     position: absolute;
     top: 0;
@@ -303,15 +299,6 @@ body {
     z-index: 100;
 }
 
-/* KEYFRAMES ANIMATIONS */
-@keyframes showRight {
-    100% {
-        width: 0;
-    }
-}
-
-@keyframes ManipActiveHover {
-    100% {
-        pointer-events: auto;
-    }
+.home-ImgHover:hover {
+    background: yellowgreen;
 }
