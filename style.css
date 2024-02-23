@@ -4,12 +4,12 @@ body {
   padding: 0;
   background-image: url("background.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center 50%; /* Position at center of y-axis */
 }
 
 header {
-  background-color: #f0f0f0; /* Set topbar color */
-  padding: 20px, 10px; /* Reduce padding for smaller size */
+  background-color: #9411eb; /* Set topbar color */
+  padding: 10px 20px; /* Reduce padding for smaller size */
   display: flex;
   justify-content: space-between;
   align-items: center;
