@@ -78,6 +78,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
+    z-index: 1;
 }
 
 .home-content {
@@ -282,11 +283,11 @@ body {
     background: transparent;
     transition: 3s;
     animation: ManipActiveHover .1 forwards;
-    animation-delay: 4s;
+    animation-delay: 3s;
     pointer-events: none;
 }
 
-.home-ImgHover::before {
+.home-ImgHover::after {
     content: '';
     position: absolute;
     top: 0;
@@ -300,5 +301,18 @@ body {
 }
 
 .home-ImgHover:hover {
-    background: yellowgreen;
+    background: #081b29;
+    opacity: .8;
+}
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes ManipActiveHover {
+    100% {
+        pointer-events: auto;
+    }
 }
