@@ -8,16 +8,16 @@ body {
 }
 
 header {
-  background-color: #3511d6; /* Set topbar color */
-  padding: 20px;
+  background-color: #f0f0f0; /* Set topbar color */
+  padding: 10px 20px; /* Reduce padding for smaller size */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
+  font-size: 1.8em; /* Adjust font size slightly smaller */
+  margin-bottom: 5px; /* Reduce margin for better spacing */
 }
 
 p {
@@ -31,7 +31,7 @@ nav {
 }
 
 nav button {
-  padding: 10px 20px;
+  padding: 8px 15px; /* Reduce button padding for smaller size */
   border: none;
   background-color: transparent; /* Remove button background */
   color: #333; /* Adjust button text color */
