@@ -282,11 +282,10 @@ body {
     height: 100%;
     background: transparent;
     transition: 3s;
-    animation: ManipActiveHover .1 forwards;
-    animation-delay: 3s;
+    animation: ManipActiveHover .3 forwards;
+    animation-delay: 4s;
     pointer-events: none;
 }
-
 .home-ImgHover::after {
     content: '';
     position: absolute;
