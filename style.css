@@ -594,6 +594,7 @@ spanr {
 }
 
 .footer-iconTop a {
+    min-height: auto;
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -629,6 +630,16 @@ spanr {
 
 .footer-iconTop a:hover i {
     color: var(--main-color);
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--second-bg-color);
+    padding-bottom: 6.2rem;
 }
 
 @keyframes showRight {
